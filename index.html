@@ -1,0 +1,214 @@
+<html>
+<head>
+<title> Resume Portfolio </title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="scroll.css">
+</head>
+<body>
+<div id="my">
+	<h2>Welcome to My-Portfolio...</h2>
+	<hr class="hr1">
+</div>
+
+<div class="nav1">
+	<span><a href="#" onclick="hm();" title="Home"><i id="home" id="hvr"  class="fa fa-home" aria-hidden="true"></i></span></a>
+	<span><a href="#study1" onclick="std();" title="Education Details"><i id="study" class="fa fa-briefcase" aria-hidden="true"></i></span></a>
+	<span><a href="#info1" onclick="inf();" title="Information"><i id="info" class="fa fa-info-circle" aria-hidden="true"></i></span></a>
+	<span><a href="#works1" onclick="work();" title="Projects"><i id="works" class="fa fa-codepen" aria-hidden="true"></i></span></a>
+	<span><a href="#ach1" onclick="ach();" title="Acheivements"><i id="ach" class="fa fa-trophy" aria-hidden="true"></i></span></a>
+	<span><a href="#abt1" onclick="abt();" title="About Me"><i id="abt" class="fa fa-address-book" aria-hidden="true"></i></span></a>
+
+</div>
+<div class="name">
+<h2>.....</h2>
+</div>
+<div class="lnd">
+<span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+</div>
+<div class="gle">
+<i class="fa fa-google" aria-hidden="true"></i>
+</div>
+<div class="fb">
+<i class="fa fa-facebook-square" aria-hidden="true"></i>
+</div>
+<div id="img1">
+
+</div>
+
+<div id="hm1" class="hme">  
+<h2>Objective</h2>
+
+<p align="justify"><span id="yin">&#9734; </span> To secure a challenging position that utilizes my experience, while allowing me<br> 
+the opportunity to grow professionally.
+</p>
+
+<h2>Abcdef</h2>
+<p align="justify"><span id="yin">&#9734; </span>This elegant color scheme brings together dark <br>muted tones to create a clean sophisticated look.
+</p>
+
+</div>
+
+<div id="study1" style="display:none;">  
+<h2>Section 2</h2>
+</div>
+
+<div id="info1" style="display:none;">  
+<h2>Section 3</h2>
+</div>
+
+
+<div id="work1" style="display:none;">  
+<h2>Section 4</h2>
+</div>
+
+
+<div id="ach1" style="display:none;">  
+<h2>Section 5</h2>
+</div>
+
+<div id="abt1" style="display:none;">  
+<h2>Section 6</h2>
+</div>
+
+<script>
+
+function sam(){
+					document.getElementById('study1').style.display = 'none';
+					document.getElementById('info1').style.display = 'none';
+					document.getElementById('abt1').style.display = 'none';
+					document.getElementById('hm1').style.display = 'none';
+}
+function sam1(){
+					document.getElementById('work1').style.display = 'none';
+					document.getElementById('ach1').style.display = 'none';
+					document.getElementById('abt1').style.display = 'none';
+					
+				}
+function hm(){
+	if (document.getElementById('hm1')) {
+
+                if (document.getElementById('hm1').style.display == 'none') {
+                    document.getElementById('hm1').style.display = 'block';
+                    document.getElementById('info1').style.display = 'none';
+					document.getElementById('study1').style.display = 'none';
+					sam1();
+                }
+            }
+		
+	}
+
+
+	function std(){
+	if (document.getElementById('study1')) {
+
+                if (document.getElementById('study1').style.display == 'none') {
+                    document.getElementById('study1').style.display = 'block';
+                    document.getElementById('info1').style.display = 'none';
+					document.getElementById('hm1').style.display = 'none';
+					sam1();
+                }
+                else {
+                    document.getElementById('study1').style.display = 'none';
+                }
+            }
+		
+	}
+	function inf(){
+	if (document.getElementById('info1')) {
+
+                if (document.getElementById('info1').style.display == 'none') {
+                    document.getElementById('info1').style.display = 'block';
+                    document.getElementById('study1').style.display = 'none';
+					document.getElementById('hm1').style.display ='none';
+					sam1();
+                }
+                else {
+                    document.getElementById('info1').style.display = 'none';
+                }
+            }
+		
+	}
+	function work(){
+	if (document.getElementById('work1')) {
+
+                if (document.getElementById('work1').style.display == 'none') {
+                    document.getElementById('work1').style.display = 'block';
+					document.getElementById('ach1').style.display = 'none';
+					sam();
+					
+                }
+                else {
+                    document.getElementById('work1').style.display = 'none';
+                }
+            }
+		
+	}
+	function ach(){
+	if (document.getElementById('ach1')) {
+
+                if (document.getElementById('ach1').style.display == 'none') {
+                    document.getElementById('ach1').style.display = 'block';
+					document.getElementById('work1').style.display = 'none';
+                    sam();
+                }
+                else {
+                    document.getElementById('ach1').style.display = 'none';
+                }
+            }
+		
+	}
+	function abt(){
+	if (document.getElementById('abt1')) {
+
+                if (document.getElementById('abt1').style.display == 'none') {
+                    document.getElementById('abt1').style.display = 'block';
+                    document.getElementById('study1').style.display = 'none';
+					document.getElementById('info1').style.display = 'none';
+					document.getElementById('work1').style.display = 'none';
+					document.getElementById('hm1').style.display = 'none';
+					document.getElementById('ach1').style.display = 'none';
+                }
+                else {
+                    document.getElementById('abt1').style.display = 'none';
+                }
+            }
+		
+	}
+	
+	
+	
+	
+	
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

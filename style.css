@@ -1,0 +1,229 @@
+@import "animate.css";
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Playball&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
+
+body
+{
+	margin:20px;
+	background:black;
+	position:absolute;
+}
+
+
+
+
+
+
+.nav1{
+	background:#fff;
+	width:auto;
+	max-width:72px;
+	height:450px;
+	margin:80px 0px 0px 90px;
+}
+
+#home
+{
+	padding:20px;
+	color:#fff;
+	font-size:35px;
+	cursor:pointer;
+	background:#05386B;
+}
+
+#study
+{
+	padding:21.5px;
+	color:#05386B;
+	font-size:30px;
+	cursor:pointer;
+}
+
+#info
+{
+	padding:21.5px;
+	color:#05386B;
+	font-size:35px;
+	cursor:pointer;
+}
+#works
+{
+	padding:20px;
+	color:#05386B;
+	font-size:35px;
+	cursor:pointer;
+}
+#ach
+{
+	padding:20px;
+	color:#05386B;
+	font-size:35px;
+	cursor:pointer;
+}
+#abt
+{
+	padding:20px;
+	color:#05386B;
+	font-size:35px;
+	cursor:pointer;
+	
+}
+#img1
+{
+	border:2px solid #5D6D7E;
+	width:350px;
+	height:520px;
+	margin:-470px 0px 0px 162px;
+	animation:bounceInDown 2s;
+	background:url("img.jpeg");
+	background-size: cover;
+	
+}
+.name{
+	width:100px;
+	height:50px;
+	margin:-100px 0px 0px 280px;
+	padding:auto;
+	text-align:center;
+	
+}
+.lnd{
+	font-size:30px;
+	margin:10px 0px 0px 260px;
+	cursor:pointer;
+	animation:slideInDown 3s;
+	
+	
+}
+.lnd:hover{
+	color:#1A5276;
+}
+.gle{
+	font-size:30px;
+	margin:-29px 0px 0px 310px;
+	cursor:pointer;
+	animation:slideInUp 4s;
+	
+}
+.gle:hover{
+	color:#E74C3C;
+}
+.fb{
+	font-size:30px;
+	margin:-30px 0px 0px 360px;
+	cursor:pointer;
+	animation:slideInDown 2s;
+	
+}
+.fb:hover{
+	color:#1A5276 ;
+}
+
+
+#hm1
+{
+	width:700px;
+	height:420px;
+	padding:10px 0 0 30px;
+	margin:-470px 0px 0px 510px;
+	border:2px solid #5D6D7E;
+	color:#fff;
+	animation: fadeInLeft 2.5s;
+	transition:.5s;
+	overflow:auto;
+	background:url('obj.jpg');
+	background-size:cover;
+	
+}
+
+#study1,#work1,#ach1,#abt1,#info1
+{
+	width:700px;
+	height:420px;
+	padding:10px;
+	margin:-470px 0px 0px 510px;
+	border:2px solid #5D6D7E;
+	color:#fff;
+	animation: fadeInLeft 1s;
+	transition:.5s;
+	overflow:auto;
+	background:url('obj1.jpg');
+	background-size:cover;
+	
+}
+#hm1 h2{
+	font-family:'Baloo Bhai', cursive;
+	font-size:30px;
+	margin:50px 0 0 22px;
+	
+}
+#hm1 p{
+	margin:5px 0px 0px 20px;
+	padding-left:5px;
+}
+#yin
+{
+	font-size:20px;
+	font-weight:700;
+	color:#3498DB;
+	margin:0px 0 0 -25px;
+}
+#my{
+	width:450px;
+	height:40px;
+	margin:-10px 0 0 420px;
+	padding:10px;
+}
+#my h2{
+	font-size:30px;
+	font-weight:700;
+	font-family:'Playball', cursive;
+	color:#66FCF1;
+	overflow: hidden;
+	border-right: .15em solid orange; 
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .1em;
+	text-align:center;
+	animation-timing-function: ease-out;
+	animation: 
+    typing 5s steps(40,end),
+    blink-caret .75s step-end infinite
+}
+.hr1
+{
+border: 0;
+height: 1px;
+background: rgba(174, 214, 241);
+background-image: -webkit-linear-gradient(left, #566573, rgba(174, 214, 241), #566573);
+
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: red; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
