@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Playball&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 
 body
 {
@@ -77,8 +77,8 @@ body
 	height:520px;
 	margin:-470px 0px 0px 162px;
 	animation:bounceInDown 2s;
-	background:url("img.jpeg");
-	background-size: cover;
+	 /* background:url("img.jpeg");
+	background-size:cover;  */ 
 	
 }
 .name{
@@ -89,11 +89,45 @@ body
 	text-align:center;
 	
 }
+.n1{
+	background:transparent;
+	width:110px;
+	margin:-120px 0 0 270px;
+	height:35px;
+	text-align:center;
+	/*border-bottom:1px solid #3498DB;*/
+	
+}
+/* .ml2
+{
+	color:#3498DB;
+	font-size:20px;
+	font-family:"Kaushan Script",cursive;
+	padding:5px 0px 0px 13px;
+	font-weight:700;
+	width:50px;
+	height:auto;
+} */
+.hd
+{
+	font-size:20px;
+	font-family:"Kaushan Script",cursive;
+	margin:-440px 0 0 477px;
+	background:#fff;
+	color:#123C69;
+	width:35px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	animation-delay:2s;
+	animation:bounceInRight 3s;
+}
 .lnd{
 	font-size:30px;
 	margin:10px 0px 0px 260px;
 	cursor:pointer;
+	animation-delay:2s;
 	animation:slideInDown 3s;
+
 	
 	
 }
@@ -105,6 +139,7 @@ body
 	margin:-29px 0px 0px 310px;
 	cursor:pointer;
 	animation:slideInUp 4s;
+
 	
 }
 .gle:hover{
@@ -127,13 +162,13 @@ body
 	width:700px;
 	height:420px;
 	padding:10px 0 0 30px;
-	margin:-470px 0px 0px 510px;
+	margin:-405px 0px 0px 510px;
 	border:2px solid #5D6D7E;
 	color:#fff;
 	animation: fadeInLeft 2.5s;
 	transition:.5s;
 	overflow:auto;
-	background:url('obj.jpg');
+	background:url('obj2.jpg');
 	background-size:cover;
 	
 }
@@ -143,13 +178,13 @@ body
 	width:700px;
 	height:420px;
 	padding:10px;
-	margin:-470px 0px 0px 510px;
+	margin:-385px 0px 0px 510px;
 	border:2px solid #5D6D7E;
 	color:#fff;
 	animation: fadeInLeft 1s;
 	transition:.5s;
 	overflow:auto;
-	background:url('obj1.jpg');
+	background:url('obj3.jpg');
 	background-size:cover;
 	
 }
@@ -188,6 +223,7 @@ body
 	letter-spacing: .1em;
 	text-align:center;
 	animation-timing-function: ease-out;
+	anima-delay:2s;
 	animation: 
     typing 5s steps(40,end),
     blink-caret .75s step-end infinite
