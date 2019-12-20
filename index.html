@@ -35,8 +35,45 @@
 <i class="fa fa-facebook-square" aria-hidden="true"></i>
 </div>
 <div id="img1">
-
 </div>
+	
+<div class="hd">
+<h2>S</h2>
+<h2>U</h2>
+<h2>R</h2>
+<h2>E</h2>
+<h2>N</h2>
+<h2>D</h2>
+<h2>R</h2>
+<h2>A</h2>
+</div>
+
+ <!-- <div class="n1">
+<h1 class="ml2">Surendra</h1>
+</div> -->
+<script>
+var textWrapper = document.querySelector('.ml2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml2 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: (el, i) => 100*i
+  }).add({
+    targets: '.ml2',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1200
+  });
+</script>
+	
+	
 
 <div id="hm1" class="hme">  
 <h2>Objective</h2>
