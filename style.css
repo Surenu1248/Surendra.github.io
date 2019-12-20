@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Playball&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 
 body
 {
@@ -78,7 +79,7 @@ body
 	margin:-470px 0px 0px 162px;
 	animation:bounceInDown 2s;
 	background:url("img.jpeg");
-	background-size:cover; 
+	background-size:cover;  
 	
 }
 .name{
@@ -121,39 +122,33 @@ body
 	animation-delay:2s;
 	animation:bounceInRight 3s;
 }
-.lnd{
+.lnd i{
 	font-size:30px;
 	margin:10px 0px 0px 260px;
 	cursor:pointer;
+	color:#1A5276;
 	animation-delay:2s;
 	animation:slideInDown 3s;
+	
+}
 
-	
-	
-}
-.lnd:hover{
-	color:#1A5276;
-}
-.gle{
+.gle i{
 	font-size:30px;
 	margin:-29px 0px 0px 310px;
 	cursor:pointer;
+	color:#1A5276;
 	animation:slideInUp 4s;
-
-	
 }
-.gle:hover{
+.gle i:hover{
 	color:#E74C3C;
 }
-.fb{
+.fb i{
 	font-size:30px;
 	margin:-30px 0px 0px 360px;
 	cursor:pointer;
+	color:#1A5276;
 	animation:slideInDown 2s;
 	
-}
-.fb:hover{
-	color:#1A5276 ;
 }
 
 
@@ -168,7 +163,7 @@ body
 	animation: fadeInLeft 2.5s;
 	transition:.5s;
 	overflow:auto;
-	background:url('obj.jpg');
+	background:url('obj2.jpg');
 	background-size:cover;
 	
 }
@@ -178,15 +173,12 @@ body
 	width:700px;
 	height:420px;
 	padding:10px;
-	margin:-385px 0px 0px 510px;
+	margin:-405px 0px 0px 510px;
 	border:2px solid #5D6D7E;
 	color:#fff;
 	animation: fadeInLeft 1s;
 	transition:.5s;
 	overflow:auto;
-	background:url('obj3.jpg');
-	background-size:cover;
-	
 }
 #hm1 h2{
 	font-family:'Baloo Bhai', cursive;
@@ -236,6 +228,36 @@ background: rgba(174, 214, 241);
 background-image: -webkit-linear-gradient(left, #566573, rgba(174, 214, 241), #566573);
 
 }
+.hr2
+{
+border: 0;
+height: 1px;
+margin-top:-5px;
+background-image: -webkit-linear-gradient(left,  #F7F9F9, #AED6F1,#F7F9F9,#ABEBC6,#F4F6F7);
+}
+#study1{ background:url("edu1.jpg");background-size:cover;}
+#study1 h2{
+	text-align:center;
+	font-size:25px;
+	color:#fff;
+	margin-top:5px;
+	font-family:"Courgette", cursive;
+}
+#study1 span{
+	color:#FBFCFC;
+	font-size:20px;
+	margin-left:20px;
+	font-weight:700;
+}
+#sscp,#inter,#grad
+{
+	color:#ECF0F1;
+	font-size:16px;
+	margin-left:20px;
+}
+
+
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
